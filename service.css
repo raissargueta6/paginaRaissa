@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+li, a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1500;
+    font-size: 15px;
+    color: #757575;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+.paginas {
+    list-style: none;
+}
+.paginas li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.paginas li a {
+    text-decoration: none;
+}
+.paginas li a:hover {
+    color: #f5d0cc
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat';
+}
+.titulo{
+    text-align: center;
+    font-size: 6vw;
+    color: #494848;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+.titulo span{
+    text-transform: uppercase;
+    color: #c7a7a4;
+}
+.texto{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.parte2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    min-height: calc(100vh - 20rem);
+    margin: 0%;
+}
+@media (max-width: 450px) {
+    html {
+      font-size: 50%;
+    }
+}
+.boton {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #f5d0cc;
+    padding: .7rem;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding-left: 2rem;
+}  
+.boton i {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    font-size: 15px;
+    text-align: center;
+    background: #fff;
+    color: #f5d0cc;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+.boton:hover i {
+    margin-left: 2rem;
+}
+.contenedor {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+    gap: 1.0rem;
+}
+.cuadro {
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: .5rem;
+
+}
+.imagen img {
+    transform: scale(1.2);
+}
+  
+.imagen {
+    height: 10rem;
+    width: 100%;
+    border-radius: .5rem;
+    overflow: hidden;
+}  
+.imagen img {
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+    max-width: 300px
+} 
+.info h2 {
+    font-size: 20px;
+    color: #757575;
+    font-weight: normal;
+}
+.info p {
+    font-size: 15px;
+    color: #757575;
+    padding: 1rem 0;
+    line-height: 2;
+}
+@media (max-width: 400px) {
+    html {
+        font-size: 50%;
+}
+}

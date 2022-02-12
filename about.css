@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li, a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 50;
+    color: #757575;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+.paginas {
+    list-style: none;
+}
+.paginas li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.paginas li a {
+    text-decoration: none;
+}
+.paginas li a:hover {
+    color: #f5d0cc
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat';
+}
+.about{
+    width: 85%;
+    height: 250px;
+    background-color: #cacaca;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin: auto auto  auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about img{
+    height: 180px;
+    align-items: center;
+}
+.titulo {
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    box-sizing: border-box;
+}
+.titulo span{
+    font-size: 38px;
+    position: absolute;
+    top: 10px;
+    color: #f5d0cc;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 0;
+}
+.titulo h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 0;
+    color: #3b434a;
+    position: relative;
+    z-index: 2;
+    margin-top: 0;
+    display: block;
+    line-height: 1.2;
+    text-align: center;
+}
+.titulo p{
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin-top: 0;
+    box-sizing: border-box;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.texto{
+    width: 700px;
+}
+.about p{
+    color: #3b3b3b;
+    font-size: 12px;
+    font-family: 'Montserrat';
+}
